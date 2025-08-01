@@ -5,6 +5,7 @@ import ContactHeader from "@/components/sections/contact/ContactHeader";
 import ContactFormSection from "@/components/sections/contact/ContactFormSection";
 import ContactSidebar from "@/components/sections/contact/ContactSidebar";
 import ContactFAQ from "@/components/sections/contact/ContactFAQ";
+import SocialLinks from "@/components/sections/contact/SocialLinks";
 
 export default function Contact() {
   return (
@@ -44,6 +45,7 @@ export default function Contact() {
             <ContactSidebar />
           </div>
         </div>
+          <SocialLinks/>
 
         {/* FAQ Section */}
         <ContactFAQ />

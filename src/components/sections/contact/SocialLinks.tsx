@@ -31,8 +31,7 @@ export default function SocialLinks() {
         >
           🌐 Connect Online
         </AnimatedText>
-        
-        <div className="grid grid-cols-2 gap-4 max-w-sm mx-auto">
+        <div className="grid lg:grid-cols-4 lg:gap-8 sm:grid-cols-2 gap-4 grid-cols-1">
         {socialLinks.map((social, index) => (
           <motion.div key={social.name} variants={fadeInUp}>
             <InteractiveCard

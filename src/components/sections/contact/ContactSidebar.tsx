@@ -2,7 +2,6 @@
 
 import ContactInfo from "./ContactInfo";
 import QuickActions from "./QuickActions";
-import SocialLinks from "./SocialLinks";
 import { motion } from "framer-motion";
 import { staggerContainer } from "@/lib/advanced-animations";
 
@@ -16,7 +15,6 @@ export default function ContactSidebar() {
     >
       <ContactInfo />
       <QuickActions />
-      <SocialLinks />
     </motion.div>
   );
 }
